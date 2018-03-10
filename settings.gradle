@@ -1,0 +1,3 @@
+rootProject.name='jimi-sdk'
+
+include 'demo'

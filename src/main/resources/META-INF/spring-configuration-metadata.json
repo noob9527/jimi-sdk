@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "jimi",
+      "type": "cn.staynoob.jimi.autoconfigure.JimiProperties",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jimi.app-key",
+      "type": "java.lang.String",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    },
+    {
+      "name": "jimi.app-secret",
+      "type": "java.lang.String",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    },
+    {
+      "name": "jimi.user-id",
+      "type": "java.lang.String",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    },
+    {
+      "name": "jimi.user-password",
+      "type": "java.lang.String",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    },
+    {
+      "name": "jimi.api-version",
+      "type": "java.lang.String",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    },
+    {
+      "name": "jimi.api-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    },
+    {
+      "name": "jimi.log-level",
+      "type": "okhttp3.logging.HttpLoggingInterceptor.Level",
+      "sourceType": "cn.staynoob.jimi.autoconfigure.JimiProperties"
+    }
+  ],
+  "hints": []
+}
