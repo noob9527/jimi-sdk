@@ -19,7 +19,7 @@ class JimiProperties(
         var appSecret: String,
         var userId: String,
         userPassword: String,
-        var apiVersion: String = "1.0",
+        var apiVersion: String = "0.9",
         var apiUrl: String = "http://open.aichezaixian.com/route/rest/",
         var logLevel: HttpLoggingInterceptor.Level = HttpLoggingInterceptor.Level.NONE
 ) {
@@ -43,7 +43,7 @@ class JimiProperties(
     @Suppress("SENSELESS_COMPARISON")
     @PostConstruct
     private fun init() {
-        if (apiVersion == null) apiVersion = "1.0"
+        if (apiVersion == null) apiVersion = "0.9"
         if (apiUrl == null) apiUrl = "http://open.aichezaixian.com/route/rest/"
         if (logLevel == null) logLevel = HttpLoggingInterceptor.Level.NONE
     }
